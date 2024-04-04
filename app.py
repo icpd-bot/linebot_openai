@@ -21,7 +21,7 @@ static_tmp_path = os.path.join(os.path.dirname(__file__), 'static', 'tmp')
 # Channel Access Token
 line_bot_api = LineBotApi(os.getenv('02fc19c3b966a64fcc1dce5cb623b14d'))
 # Channel Secret
-handler = WebhookHandler(os.getenv('02fc19c3b966a64fcc1dce5cb623b14d'))
+handler = WebhookHandler(os.getenv('LIgNUQECmaESwtrJESypvEfvc5f+YsFRHV3xyyNZ4Gh/6lJnen7+mC5lgKxbc3EtI6XlhTW+1MHAwPASKm9p537plq0ivz0nUJy1vHNJFD6QSyIXjYpoCymZj/Xcaw7l7pxRjvR7d/l6R91bNAWRUQdB04t89/1O/w1cDnyilFU='))
 # OPENAI API Key初始化設定
 openai.api_key = os.getenv('OPENAI_API_KEY')
 
